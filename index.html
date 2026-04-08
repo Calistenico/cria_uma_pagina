@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteFlix Colca 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            overflow-x: hidden;
+        }
+
+        .hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            padding-bottom: 20px;
+        }
+
+        .hero .container {
+            text-align: center;
+        }
+
+        .hero .title {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero .subtitle {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .beneficios {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .beneficio {
+            width: calc(33.33% - 20px);
+            margin: 10px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .beneficio i {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .prova-social {
+            padding: 40px;
+        }
+
+        .prova-social .testimonial {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .prova-social .testimonial p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .faq {
+            padding: 40px;
+        }
+
+        .faq .accordion {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .faq .accordion .item {
+            width: calc(33.33% - 20px);
+            margin: 10px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq .accordion .item h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .cta {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .cta button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .cta button:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <h1 class="title">Assine agora e comece a assistir!</h1>
+            <p class="subtitle">Plano 20, R$ 20,99/mês</p>
+            <button class="cta button" onclick="window.location.href='assinatura.html'">Assinar</button>
+        </div>
+    </div>
+
+    <section class="beneficios">
+        <div class="container">
+            <div class="beneficio">
+                <i class="fas fa-lock"></i>
+                <h2>Segurança</h2>
+                <p>A nossa plataforma é segura e confiável.</p>
+            </div>
+
+            <div class="beneficio">
+                <i class="fas fa-movie-camera"></i>
+                <h2>Conteúdo de alta qualidade</h2>
+                <p>Nossos filmes e séries são selecionados com cuidado para oferecer a melhor experiência possível.</p>
+            </div>
+
+            <div class="beneficio">
+                <i class="fas fa-rocket"></i>
+                <h2>Conexão rápida</h2>
+                <p>A nossa plataforma é projetada para garantir uma conexão rápida e estável.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="prova-social">
+        <div class="container">
+            <h2>Depoimentos</h2>
+            <div class="testimonial">
+                <p>"A EliteFlix Colca é a melhor opção para quem busca uma experiência de streaming de alta qualidade e segura."</p>
+                <p>- João, cliente satisfeito</p>
+            </div>
+
+            <div class="testimonial">
+                <p>"Eu estava procurando por uma plataforma que oferecesse filmes e séries de alta qualidade e a EliteFlix Colca não decepcionou."</p>
+                <p>- Maria, cliente satisfeita</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2>Frequentes Perguntas</h2>
+            <div class="accordion">
+                <div class="item">
+                    <h2>Quais são os planos disponíveis?</h2>
+                    <p>O plano 20 é o nosso plano mais básico, que inclui acesso a uma seleção de filmes e séries. O plano 55 inclui acesso a uma seleção mais ampla de conteúdo, enquanto o plano 100 oferece acesso a todos os nossos filmes e séries.</p>
+                </div>
+
+                <div class="item">
+                    <h2>Como posso cancelar meu plano?</h2>
+                    <p Você pode cancelar seu plano acessando sua conta e clicando em 'Cancelar plano'.</p>
+                </div>
+
+                <div class="item">
+                    <h2>Quais são os métodos de pagamento aceitos?</h2>
+                    <p Nós aceitamos cartões de crédito, débito e PayPal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <button>Assinar</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 EliteFlix Colca. Todos os direitos reservados.</p>
+        <a href="https://www.whatsapp.com/" target="_blank">WhatsApp</a>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-font-awesome-id.js" crossorigin="anonymous"></script>
+    <script>
+        window.addEventListener('scroll', function() {
+            var scrollPosition = $(this).scrollTop();
+            if (scrollPosition > 0) {
+                $('.hero').addClass('scrolled');
+            } else {
+                $('.hero').removeClass('scrolled');
+            }
+        });
+
+        document.querySelectorAll('.accordion .item h2').forEach(function(h2) {
+            h2.addEventListener('click', function() {
+                var thisElement = $(this).next('.accordion-content');
+                if (thisElement.is(':visible')) {
+                    thisElement.hide();
+                } else {
+                    thisElement.show();
+                }
+            });
+        });
+
+        document.querySelectorAll('.cta button').forEach(function(button) {
+            button.addEventListener('click', function() {
+                alert('Você foi redirecionado para a página de assinatura!');
+            });
+        });
+    </script>
+</body>
+</html>
